@@ -56,7 +56,7 @@ func main() {
 	fmt.Println("            Marius 'f0wL' Genheimer | https://dissectingmalwa.re\n\n")
 
 	if len(os.Args) < 2 {
-		fmt.Println("   Usage: ./deICEr.go unpacked_ICEDID_Loader.exe")
+		fmt.Println("   Usage: ./deICEr unpacked_ICEDID_Loader.exe")
 		os.Exit(1)
 	}
 
