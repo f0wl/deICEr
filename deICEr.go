@@ -70,8 +70,8 @@ func main() {
 
 	if dumpErr == nil {
 		// slicing out the key
-		rc4_key := rawData[:8]
-		fmt.Println("   Extracted RC4 Key (UTF-8): ", rc4_key)
+		rc4key := rawData[:8]
+		fmt.Println("   Extracted RC4 Key (UTF-8): ", rc4key)
 		// ...and the ciphertext with the proper offset
 		ciphertext := rawData[8:592]
 		rc4decrypt(rc4_key, ciphertext)
