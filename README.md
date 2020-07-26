@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/f0wl/deICEr)](https://goreportcard.com/report/github.com/f0wl/deICEr)
+
 # deICEr
 
 A crude Config Extractor for IcedID second stage Loaders (Zero2Auto Week 0x02)
